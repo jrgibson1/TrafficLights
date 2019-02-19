@@ -11,7 +11,6 @@
 		F3A974F31FE1194C00C8E0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A974F21FE1194C00C8E0F9 /* ViewController.swift */; };
 		F3A974F61FE1194C00C8E0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A974F41FE1194C00C8E0F9 /* Main.storyboard */; };
 		F3A974F81FE1194C00C8E0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A974F71FE1194C00C8E0F9 /* Assets.xcassets */; };
-		F3A974FB1FE1194C00C8E0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A974F91FE1194C00C8E0F9 /* LaunchScreen.storyboard */; };
 		F3A975061FE1194C00C8E0F9 /* trafficLightsv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A975051FE1194C00C8E0F9 /* trafficLightsv2Tests.swift */; };
 		F3A975111FE1194C00C8E0F9 /* trafficLightsv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A975101FE1194C00C8E0F9 /* trafficLightsv2UITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		F3A974F21FE1194C00C8E0F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3A974F51FE1194C00C8E0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3A974F71FE1194C00C8E0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3A974FA1FE1194C00C8E0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A974FC1FE1194C00C8E0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3A975011FE1194C00C8E0F9 /* trafficLightsv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trafficLightsv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A975051FE1194C00C8E0F9 /* trafficLightsv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trafficLightsv2Tests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				F3A974F21FE1194C00C8E0F9 /* ViewController.swift */,
 				F3A974F41FE1194C00C8E0F9 /* Main.storyboard */,
 				F3A974F71FE1194C00C8E0F9 /* Assets.xcassets */,
-				F3A974F91FE1194C00C8E0F9 /* LaunchScreen.storyboard */,
 				F3A974FC1FE1194C00C8E0F9 /* Info.plist */,
 			);
 			path = trafficLightsv2;
@@ -188,20 +185,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "John Gibson";
 				TargetAttributes = {
 					F3A974EC1FE1194C00C8E0F9 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					F3A975001FE1194C00C8E0F9 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F3A974EC1FE1194C00C8E0F9;
 					};
 					F3A9750B1FE1194C00C8E0F9 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F3A974EC1FE1194C00C8E0F9;
 					};
@@ -232,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A974FB1FE1194C00C8E0F9 /* LaunchScreen.storyboard in Resources */,
 				F3A974F81FE1194C00C8E0F9 /* Assets.xcassets in Resources */,
 				F3A974F61FE1194C00C8E0F9 /* Main.storyboard in Resources */,
 			);
@@ -304,14 +303,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3A974F91FE1194C00C8E0F9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3A974FA1FE1194C00C8E0F9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -329,6 +320,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +328,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +379,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +387,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,8 +427,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JRG.trafficLightsv2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,8 +442,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JRG.trafficLightsv2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -463,7 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JRG.trafficLightsv2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trafficLightsv2.app/trafficLightsv2";
 			};
@@ -480,7 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JRG.trafficLightsv2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trafficLightsv2.app/trafficLightsv2";
 			};
@@ -496,7 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JRG.trafficLightsv2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = trafficLightsv2;
 			};
@@ -512,7 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JRG.trafficLightsv2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = trafficLightsv2;
 			};
